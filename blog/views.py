@@ -104,5 +104,9 @@ def demo_ui():
 def game_program():
 	pass
 
+<<<<<<< HEAD
 def ui_2():
+=======
+def game_program_2():
+>>>>>>> game_programmer
 	pass
