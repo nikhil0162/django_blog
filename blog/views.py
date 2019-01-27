@@ -116,3 +116,6 @@ def ui_3():
 
 def game_program_3():
 	pass
+
+def ui_repo():
+	pass
