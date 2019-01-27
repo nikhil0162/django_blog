@@ -73,3 +73,6 @@ def about(request):
 
 def game_program():
 	pass
+
+def game_program_2():
+	pass
