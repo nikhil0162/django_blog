@@ -106,3 +106,6 @@ def game_program():
 
 def ui_2():
 	pass
+
+def ui_3():
+	pass
