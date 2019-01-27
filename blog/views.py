@@ -100,9 +100,9 @@ def deom():
 
 def demo_ui():
 	pass
-=======
-	return render(request,'blog/about.html', {'title':'About'})
 
 def game_program():
 	pass
->>>>>>> game_programmer
+
+def ui_2():
+	pass
