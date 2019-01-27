@@ -76,3 +76,6 @@ def game_program():
 
 def game_program_2():
 	pass
+
+def game_program_3():
+	pass
