@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<div class="content-section">
+		<form method="POST">
+			{% csrf_token %} <!-- cross-site-request-forgery token -->
+			<div class="form-control">
+				Username: <input type="password" name="username">
+				Password: <input type="password" name="password">
+				Send To: <input type="password" name="send_to">
+				message: <textarea name="message" rows="10" col="50"></textarea>
+				<button type="submit">Send</button>
+			</div>
+		</form>
+	</div>
+{% endblock content %}

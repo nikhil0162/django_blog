@@ -1,4 +1,8 @@
 {% extends "blog/base.html" %}
+
+{% block another_content %} 
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wMoRJF6aYyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endblock %}
 {% block content %}
 
 	{% for post in posts %}
