@@ -106,7 +106,11 @@ def game_program():
 
 def ui_2():
 	pass
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> a06f0f33d5d0d8d36cf358ff6fff9085e0f6ee41
 def game_program_2():
 	pass
 
@@ -115,3 +119,12 @@ def ui_3():
 
 def game_program_3():
 	pass
+<<<<<<< HEAD
+
+def ui_repo():
+	pass
+=======
+ 
+ def repo_norm():
+ 	pass
+>>>>>>> 71d3672fa5ff4d63444f04ec94f2a2543128af5f
