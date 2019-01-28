@@ -89,7 +89,6 @@ def hello():
 	print('hello project')
 
 def about(request):
-<<<<<<< HEAD
 	hello()
 	print('running')
 	return render(request,'blog/about.html', {'title':'About'})
@@ -104,11 +103,11 @@ def demo_ui():
 def game_program():
 	pass
 
-<<<<<<< HEAD
+
 def ui_2():
-=======
+	pass
+
 def game_program_2():
->>>>>>> game_programmer
 	pass
 
 def ui_3():
@@ -116,3 +115,10 @@ def ui_3():
 
 def game_program_3():
 	pass
+
+
+def ui_repo():
+	pass
+
+def repo_norm():
+ 	pass
