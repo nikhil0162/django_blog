@@ -122,3 +122,6 @@ def ui_repo():
 
 def repo_norm():
  	pass
+
+def hello():
+	pass
