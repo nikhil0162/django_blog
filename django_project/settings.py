@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
 
-
+    'chat.apps.ChatConfig',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
@@ -62,6 +62,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'background_task',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -75,6 +76,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'django_project.urls'
+
+ASGI_APPLICATION = "django_project.routing.application"
+
 
 TEMPLATES = [
     {
