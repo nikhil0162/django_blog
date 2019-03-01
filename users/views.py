@@ -46,3 +46,6 @@ def something():
 
 def dev_something():
 	pass
+
+def test_something():
+	pass
