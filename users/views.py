@@ -43,3 +43,6 @@ def profile(request):
 
 def something():
 	pass
+
+def dev_something():
+	pass
