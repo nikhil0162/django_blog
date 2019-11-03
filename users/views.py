@@ -41,3 +41,8 @@ def profile(request):
 	return render(request, 'users/profile.html', context)
 
 
+def hello():
+	pass
+
+def one_love():
+	pass
