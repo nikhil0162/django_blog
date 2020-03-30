@@ -125,3 +125,7 @@ def game_program_3():
 
 def game_program_4():
     pass
+
+
+def game_program_5():
+    pass
